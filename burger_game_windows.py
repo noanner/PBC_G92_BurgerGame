@@ -1175,11 +1175,6 @@ class FinalResultPage1(object):
         global ranking_list
         self.page.destroy()
         FinalResultPage2(self.root)
-        # ranking_list.append([accumulated_profit, user_name])
-        print(user_name)
-        print(order_cost_list)
-        print(profit_list)
-        print(accumulated_profit_list)
 
 
 class FinalResultPage2(object):
@@ -1322,7 +1317,4 @@ root = Tk()
 root.title('PBC讓你睡不堡')
 StartPage(root)
 root.mainloop()
-print(user_name)
-print(order_cost_list)
-print(profit_list)
-print(accumulated_profit_list)
+root.quit()
